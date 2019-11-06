@@ -1,8 +1,6 @@
-'use strict';
-var http = require('http');
-var port = process.env.PORT || 1337;
+const http = require('http');
+const port = process.env.PORT || 1337;
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-}).listen(port);
+var controller = require('./JS/Controller.js');
+
+http.createServer(controller.handleRequest).listen(port);

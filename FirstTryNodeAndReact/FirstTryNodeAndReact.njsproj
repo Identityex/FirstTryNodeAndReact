@@ -28,9 +28,33 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Areas\TestPage.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BasePage.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Index.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="JS\Controller.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="JS\PromiseBuilder.js" />
+    <Content Include="Layout\Footer.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Layout\Header.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\" />
+    <Folder Include="JS\" />
+    <Folder Include="Layout\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
