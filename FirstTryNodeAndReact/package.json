@@ -1,0 +1,9 @@
+{
+  "name": "first-try-node-and-react",
+  "version": "0.0.0",
+  "description": "FirstTryNodeAndReact",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
