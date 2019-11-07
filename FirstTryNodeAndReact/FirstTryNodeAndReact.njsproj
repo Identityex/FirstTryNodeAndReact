@@ -4,6 +4,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>FirstTryNodeAndReact</Name>
     <RootNamespace>FirstTryNodeAndReact</RootNamespace>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -19,7 +20,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
     <NodejsPort>1337</NodejsPort>
-    <StartWebBrowser>true</StartWebBrowser>
+    <StartWebBrowser>True</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,10 +29,12 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Areas\CodeTests.html" />
     <Content Include="Areas\TestPage.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="BasePage.html">
+    <Content Include="CSS\cover.css" />
+    <Content Include="Layout\BasePage.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="Index.html">
@@ -47,6 +50,7 @@
     <Content Include="Layout\Header.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="package-lock.json" />
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -55,6 +59,8 @@
     <Folder Include="Areas\" />
     <Folder Include="JS\" />
     <Folder Include="Layout\" />
+    <Folder Include="CSS\" />
+    <Folder Include="SCSS\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
