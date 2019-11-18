@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FirstTryNodeAndReact", "FirstTryNodeAndReact\FirstTryNodeAndReact.njsproj", "{DA026055-4671-47AF-8F1B-32E6D0E8483B}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "api", "api\api.njsproj", "{DE854A1A-F90E-4994-B37F-5B62A70BC9D9}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "client", "client\client.njsproj", "{6518B81D-3854-46B0-A0DF-60F347D27884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA026055-4671-47AF-8F1B-32E6D0E8483B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA026055-4671-47AF-8F1B-32E6D0E8483B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA026055-4671-47AF-8F1B-32E6D0E8483B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA026055-4671-47AF-8F1B-32E6D0E8483B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE854A1A-F90E-4994-B37F-5B62A70BC9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE854A1A-F90E-4994-B37F-5B62A70BC9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE854A1A-F90E-4994-B37F-5B62A70BC9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE854A1A-F90E-4994-B37F-5B62A70BC9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6518B81D-3854-46B0-A0DF-60F347D27884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6518B81D-3854-46B0-A0DF-60F347D27884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6518B81D-3854-46B0-A0DF-60F347D27884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6518B81D-3854-46B0-A0DF-60F347D27884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
