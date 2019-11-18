@@ -3,11 +3,31 @@
   "version": "0.0.0",
   "description": "FirstTryNodeAndReact",
   "main": "server.js",
-  "author": {
-    "name": ""
-  },
+  "author": "Travis Arsenault",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.0",
+    "react": "^16.11.0",
     "trumpet": "^1.7.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "css-loader": "^3.2.0",
+    "exports-loader": "^0.7.0",
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "keywords": [],
+  "license": "ISC"
 }
