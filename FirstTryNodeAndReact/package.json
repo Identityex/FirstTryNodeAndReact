@@ -20,7 +20,7 @@
     "autoprefixer": "^9.7.1",
     "css-loader": "^3.2.0",
     "exports-loader": "^0.7.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.19.4",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^8.0.0",
